@@ -10,7 +10,7 @@ import VueResource from 'vue-resource'
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
 Vue.use(VueResource);
-Vue.prototype.HOST = 'http://localhost:8080/lzzz/delOp';
+/*Vue.prototype.HOST = 'http://localhost:8080/lzzz/delOp';*/
 
 /* eslint-disable no-new */
 new Vue({
