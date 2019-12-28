@@ -13,13 +13,13 @@ module.exports = {
     //设置代理服务器，vue请求地址：/api/getUserByPass，后台实际地址：http://localhost:8080/lzzz_war/getUserByPass,
     // 浏览器控制台显示地址：http://localhost:8081/api/getUserByPass
     proxyTable: {
-        '/api':{
+        /*'/api':{
           target : 'http://localhost:8080/lzzz_war',
           changeOrigin : true,
           pathRewrite:{
             '^/api':''
           }
-        }
+        }*/
     },
 
     // Various Dev Server settings
